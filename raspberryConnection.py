@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import MySQLdb, serial, sys, datetime, time
-db = MySQLdb.connect("localhost","Humppa", "salaovi","Taika_akkuna" )
+db = MySQLdb.connect("localhost","root", "root","dbName")
 
 def sqlPush(temperature, humidity, timeAndDate):
 
